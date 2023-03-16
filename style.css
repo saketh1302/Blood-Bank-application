@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bloodimg{
+  width:100%;
+  height: 500px;
+  align-content: right;
+  --tw-scale-x: 0;
+  --tw-scale-y: 0;
+}
+
+.DEDE{
+  color: white;
+}
+
+.fonti{
+  color: black;
+  font-size: medium;
+  background-color: white;
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.fonti:hover{
+  background-color: #ff3f62;
+  transition: 1ms linear;
+  /* color: #ff3f62; */
+  color: white;
+  
+ 
+}
+
+.join{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-size: 30px;
+  padding: 200px;
+  padding-bottom: 300px;
+  background-color: #fbfbfb;
+}
+
+.availability{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 30px;
+  background-color: #ff3f62;
+  color: white;
+  
+}
+
+.group{
+  
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 40px;
+
+
+}
+
+
+.group:hover{
+  transition: 1ms;
+  background-color:  #ff3f62;
+ 
+}
+#footer{
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+}
+

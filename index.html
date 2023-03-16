@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOme page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative  overflow-hidden" style="background-color: #ff3f62;height: 500px;">
+  <div class="max-w-7xl mx-auto">
+    <div class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32" style="background-color: #ff3f62;margin-left: 0px;">
+      <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+
+      <div>
+        <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+          <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+              <div class="flex items-center justify-between w-full md:w-auto">
+                <a href="#">
+                  <span class="sr-only">Workflow</span>
+                  <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
+                </a>
+                <div class="-mr-2 flex items-center md:hidden">
+                  <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <!-- Heroicon name: outline/menu -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div  style="color: white;padding-top: 20px;">
+              <a href="#" class="fonti" style="margin-left: 20px;"  > Home</a>
+
+              <a href="#" class=" fonti" style="margin-left: 20px;">Be A Donor</a>
+
+              <a href="#" class="fonti" style="margin-left: 20px;">Contact</a>
+
+              <a href="#" class=" fonti" style="margin-left: 20px;">Employee Login</a>
+
+              
+            </div>
+          </nav>
+        </div>
+
+        <!--
+          Mobile menu, show/hide based on menu open state.
+
+          Entering: "duration-150 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+          Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+        <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div class="px-5 pt-4 flex items-center justify-between">
+              <div>
+                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+              </div>
+              <div class="-mr-2">
+                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <span class="sr-only">Close main menu</span>
+                  <!-- Heroicon name: outline/x -->
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="px-2 pt-2 pb-3 space-y-1">
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
+
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
+
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
+
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
+            </div>
+            <a href="#" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"> Log in </a>
+          </div>
+        </div>
+      </div>
+
+      <main class="back" style="background-color: #ff3f62;margin-top: 50px;">
+        <div class="sm:text-center lg:text-left" style="padding-left: 10px;">
+          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+            <span class="block xl:inline"><br> BLOOD BANK</span>
+            <!-- <span class="block text-indigo-600 xl:inline">online business</span> -->
+          </h1>
+          <p class="DEDE">
+            <p class="text-4xl" style="color: white;">We Save Lives</p>
+            <br>
+            <p class="text-2xl" style="color: white;"> Donate your presious blood and save a life.</p></p>
+          
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+    <img class="bloodimg" src="data:image/png;base64,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" alt="">
+  </div>
+</div>
+
+<div class="join">
+  <div>
+      <h2 style="color: #ff3f62;padding-top: 20px;">JOIN FOR THE CAUSE</h2>   
+    <div>
+      Join our cause and help us save more lives. Everyone should have the right to get a blood transfusion.
+    </div>
+  </div> 
+
+</div>
+
+<div class="availability">
+
+  
+     Check Availability
+     <br> <br>
+ 
+     <div style="display: flex;">
+     <div class="group">
+       <a href="" style="text-decoration: none;color: black;"> <h2 style="padding: 15px;">A+</h2></a>
+        
+     </div>
+     <div class="group">
+       <a href="" style="text-decoration: none;color: black;"><h2 style="padding: 15px;">A-</h2></a>
+         
+    </div>
+    <div class="group">
+      <a href="" style="text-decoration: none;color: black;"> <h2 style="padding: 15px;">B+</h2></a>
+        
+    </div>
+    <div class="group">
+      <a href="" style="text-decoration: none;color: black;"><h2 style="padding: 15px;">B-</h2></a>
+         
+    </div>
+    <div class="group">
+      <a href="" style="text-decoration: none;color: black;"><h2 style="padding: 15px;">AB+</h2></a>
+        
+    </div>
+    <div class="group">
+      <a href="" style="text-decoration: none;color: black;"><h2 style="padding: 15px;">AB-</h2></a>
+         
+    </div>
+    <div class="group">
+      <a href="" style="text-decoration: none;color: black;"><h2 style="padding: 15px;">O+</h2></a>
+         
+    </div>
+    <div class="group">
+      <a href="" style="text-decoration: none;color: black;"> <h2 style="padding: 15px;">O-</h2></a>
+     
+    </div>
+
+  </div>
+
+  
+</div>
+<div id="footer">
+ 
+   <div>
+    <h1 style="color: #ff3f62;padding-top: 30px;padding-bottom: 20px;">You are someone's Hero</h1> 
+    <h3>In as little as few minutes, you can become someone's unnamed, unknown, but all-important Hero. Saving a life is a noble work that starts very simply and easily. <br> <br>
+    Every contribution you make is important, valued and essential in our shared mission to save lives.</h3>
+   </div>
+
+</div>
+  
+  
+  
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>
